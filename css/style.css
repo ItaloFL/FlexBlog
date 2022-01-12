@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;  
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+.info-flex-blog {
+  background-color: #122ab2;
+}
+
+.info-lista {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.logo {
+  color: #FFFFFF;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.header-bg {
+  background-color: darkcyan;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-lista {
+  display: flex;
+  gap: 20px;
+  color: #FFFFFF;
+  font-size: 1.25rem;
+}
+
+.nav-lista li {
+  cursor: pointer;
+}
