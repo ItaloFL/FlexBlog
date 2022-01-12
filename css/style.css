@@ -18,6 +18,11 @@ img {
   display: block;
 }
 
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 
 .info-flex-blog {
   background-color: #122ab2;
@@ -26,7 +31,7 @@ img {
 .info-lista {
   color: #FFFFFF;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 5px;
 }
 
@@ -37,13 +42,14 @@ img {
 }
 
 .header-bg {
-  background-color: darkcyan;
+  background-color: #2c70ff;
 }
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 10px 0px;
 }
 
 .nav-lista {
@@ -55,4 +61,88 @@ img {
 
 .nav-lista li {
   cursor: pointer;
+  padding: 10px;
+}
+
+.nav-lista li:hover {
+  color: #122ab2;
+}
+
+/* Introdução */
+
+.introducao {
+  font-size: 3rem;
+  line-height: 1;
+  padding: 60px 0;
+}
+
+.sobre {
+  border-top: 2px solid #122ab2;
+  border-bottom: 2px solid #122ab2;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-conteudo {
+  flex: 2;
+}
+
+.sobre-conteudo h1 {
+  font-size: 3rem;
+  margin-bottom: .5rem;
+}
+
+.sobre-conteudo p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+
+.imgs {
+  display: flex;
+  gap: 10px;
+  object-fit: cover;
+}
+
+/* Produtos */
+
+.produtos {
+  padding: 60px 0;
+}
+
+.produtos h1 {
+  font-size: 3rem;
+  margin: 0 0 60px 0;
+}
+
+.produtos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.produto-card {
+  flex: 1 1 175px;
+}
+
+.produtos h2 {
+  font-size: 3rem;
+  color: #a4a4a4;
+  background-color: #f7f7f7;
+  padding: 60px 20px;
+}
+
+.roxo {
+  border-top: 8px solid #ae81ff;
+}
+
+.rosa {
+  border-top: 8px solid #f9265e;
+}
+
+.azul {
+  border-top: 8px solid #66d9eb;
 }
