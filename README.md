@@ -38,12 +38,6 @@ Se você quiser contribuir em algo nesse projeto, siga os passos abaixo:
  #Faça um clone do repositório
  $ git clone https://github.com/ItaloFL/FlexBlog.git
 
- #Instale as dependências
- $ yarn install
-
- #Inicie a aplicação
- $ yarn dev
-
 ```
 
 ## Developer
